@@ -25,6 +25,8 @@ banner = """
                                                       
 """
 print (banner)
+print ("Мій канал :https://t.me/samurai_figure")
+print ("Тут цікаво:ТГ КіберПаляниця")
 time.sleep(1.0)
 
 if len(sys.argv) != 4:
