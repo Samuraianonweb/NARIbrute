@@ -67,7 +67,7 @@ def bruter(passwd,fi):
 			_exit(1)
 
 		else:
-			print ('Trying ---==> %s' % passwd')
+			print ('Trying ---==> %s' % passwd )
 
 	except Exception, e:
 		print e
