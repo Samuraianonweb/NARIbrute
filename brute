@@ -26,6 +26,7 @@ banner = """
                                                       
 """
 print (banner)
+print ("Їбаш русню")
 time.sleep(1.0)
 
 if len(sys.argv) != 4:
