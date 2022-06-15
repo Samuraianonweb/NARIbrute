@@ -25,7 +25,7 @@ banner = """
                                                       
 """
 print (banner)
-print ('Мій канал t.me/samurai_figure')
+print ('Мій канал samurai_figure')
 print ('Тут цікаво ТГ КіберПаляниця')
 time.sleep(1.0)
 
