@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- codecs: utf-8 -*-
 
 import urllib, urllib2
 import cookielib
