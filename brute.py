@@ -25,7 +25,7 @@ banner = """
                                                       
 """
 info = """
-ДобрийденькіберзахисникПочинаюатакувативорога
+Hello
 """
 print (banner)
 print (info)
