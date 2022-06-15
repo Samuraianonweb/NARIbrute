@@ -24,13 +24,11 @@ banner = """
 /_/ |_/_/  |_/_/ |_/___/   /____/\____/_/     /_/     
                                                       
 """
-print (banner);
+print (banner)
 time.sleep(1.0)
 
 if len(sys.argv) != 4:
-	print ""
-	print "\033[38;5;21m[\033[1;95m+\033[38;5;21m]\033[1;92m Usage: " + sys.argv[0] + " www.target.com admin pass.txt" 
-	print ""
+	print ("\033[38;5;21m[\033[1;95m+\033[38;5;21m]\033[1;92m Usage: " + sys.argv[0] + " www.target.com admin pass.txt")
 	sys.exit(0)
 
 url = sys.argv[1]
