@@ -24,8 +24,11 @@ banner = """
 /_/ |_/_/  |_/_/ |_/___/   /____/\____/_/     /_/     
                                                       
 """
+info = """
+Добрий день, кіберзахисник! Починаю атакувати ворога!
+"""
 print (banner)
-print ('\xd0\x9f\xd0\xbe\xd1\x87\xd0\xb8\xd0\xbd\xd0\xb0\xd1\x8e \xd0\xb0\xd1\x82\xd0\xb0\xd0\xba\xd1\x83\xd0\xb2\xd0\xb0\xd1\x82\xd0\xb8 \xd0\xb2\xd0\xbe\xd1\x80\xd0\xbe\xd0\xb3\xd0\xb0')\n')
+print (info)
 time.sleep(1.0)
 
 if len(sys.argv) != 4:
