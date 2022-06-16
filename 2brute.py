@@ -95,7 +95,7 @@ for passwd in fi:
 	threads.append(t)
 	time.sleep(0.5)
 
-link = "https://raw.githubusercontent.com/Samuraianonweb/password/main/1_500.txt"
+link = pwd
 
 page = urllib.request.urlopen(link)
 html = page.read()
