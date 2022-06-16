@@ -39,6 +39,10 @@ Id бази це перші цифри (id)_500.txt<br>
 ```shell
 python2 id_baza.py
 ```
+
+```shell
+Number Id? Вписуємо номер бази 
+```
 <h3 align="center">Команда атаки:</h3>
  
 ```shell
