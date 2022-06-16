@@ -33,7 +33,7 @@ python2 full.py
 ```
 python2 all.py
 ```
-Якщо потрібно скачати базу за номером(Для того щоб розсортувати по машинах) . Всі бази:https://github.com/Samuraianonweb/password<br>
+Якщо потрібно скачати базу за номером(Для того щоб розсортувати навантаження по машинах) . Всі бази:https://github.com/Samuraianonweb/password<br>
 Id бази це перші цифри (id)_500.txt<br>
 
 ```shell
