@@ -1,6 +1,11 @@
 <h1 align="center">Подпишись на мій телеграмм <a href="https://t.me/samurai_figure" target="_blank">N∆RI</a> 
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
 <h3 align="center">N∆RIbrute</h3>
+Постійно буду обновлювати якщо хочеш допомогти кидай бази паролів у мій телеграм @samurai_gh<br>
+Можна сказати що він "універсальний" якщо форма відправки така <br>
+post login[username]<br>
+post login[password]<br>
+Ті хто шарать зрозуміють<br>
 <h3 align="center">Установка:</h3><br>
 Клонуем git <br>
  
