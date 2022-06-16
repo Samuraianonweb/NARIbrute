@@ -7,7 +7,7 @@ page = urllib.request.urlopen(link)
 html_bytes = page.read()
 html = html_bytes.decode("utf-8")
 
-with open(html ,t) as f:
+with open(html, 't') as f:
     mas = f.read().splitlines()
 for x in mas:
     print(x)
