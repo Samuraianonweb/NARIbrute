@@ -1,5 +1,6 @@
-from​ ​urllib​.​request 
+import urllib, urllib2
 import​ ​urlopen
+from urllib.request
 id = "https://raw.githubusercontent.com/Samuraianonweb/password/main/all.txt"
 
 idpash = urlopen(id)
