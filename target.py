@@ -1,2 +1,5 @@
 import urllib
-urllib.urlretrieve('https://raw.githubusercontent.com/Samuraianonweb/password/main/1_200.txt', 'targets.txt')
+import random
+
+id = random.randint(1,2)
+urllib.urlretrieve('https://raw.githubusercontent.com/Samuraianonweb/password/main/' +id+ _200.txt', 'targets.txt')
