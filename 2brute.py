@@ -2,7 +2,7 @@
 # -*- coding: UTF-8 -*-
 
 import requests
-import urllib, urllib2
+import urllib
 import cookielib
 import sys
 import os
