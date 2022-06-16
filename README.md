@@ -1,1 +1,1 @@
-python2 brute.py -url admin pass.txt
+python2 brute -url admin pass.txt
