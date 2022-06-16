@@ -24,6 +24,10 @@ cd NARIbrute
 ```
 python2 baza_pass.py
 ```
+Завантажити повну базу 10000 паролів<br>
+```
+python2 full.py
+```
 Якщо потрібно скачати базу за номером. Всі бази:https://github.com/Samuraianonweb/password<br>
 Id бази це перші цифри (id)_500.txt<br>
 
