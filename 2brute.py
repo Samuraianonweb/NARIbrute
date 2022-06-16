@@ -40,7 +40,7 @@ if len(sys.argv) != 4:
 
 url = sys.argv[1]
 usr = sys.argv[2]
-id = sys.argv[3]
+pash = sys.argv[3]
 
 
 if url.startswith("http://"):
@@ -85,6 +85,12 @@ threads = []
 cj = cookielib.CookieJar()
 coder = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
 
+link = pwd
+
+page = urllib.request.urlopen(link)
+html = page.read()
+id = html.decode("utf8")
+page.close()
 
 with open(id, 'r') as f:
 	fi = f.read().splitlines()
@@ -94,10 +100,3 @@ for passwd in fi:
 	t.start()
 	threads.append(t)
 	time.sleep(0.5)
-
-link = pwd
-
-page = urllib.request.urlopen(link)
-html = page.read()
-id = html.decode("utf8")
-page.close()
