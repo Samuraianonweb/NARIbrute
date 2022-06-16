@@ -1,4 +1,4 @@
 with open("pass.txt") as f:
-    mash = f.read().splitlines()
+    mas = f.read().splitlines()
 for x in mas:
     print(x)
