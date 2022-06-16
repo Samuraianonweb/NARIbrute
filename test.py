@@ -1,5 +1,14 @@
 # получим объект файла
-with open("pass.txt", "r") as file1:
-    # итерация по строкам
-    for line in file1:
-        print(line.strip())
+file1 = open("pass.txt", "r")
+
+while True:
+    # считываем строку
+    line = file1.readline()
+    # прерываем цикл, если строка пустая
+    if not line:
+        break
+    # выводим строку
+    print(line.strip())
+
+# закрываем файл
+file1.close
