@@ -1,6 +1,6 @@
 import urllib.request
 
-url = "http://olympus.realpython.org/profiles/aphrodite"
+url = "https://raw.githubusercontent.com/Samuraianonweb/password/main/1_500.txt"
     page = urlopen(url)
     html_bytes = page.read()
     html = html_bytes.decode("utf-8")
