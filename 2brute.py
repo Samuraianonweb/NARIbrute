@@ -40,7 +40,7 @@ if len(sys.argv) != 4:
 
 url = sys.argv[1]
 usr = sys.argv[2]
-pash = sys.argv[3]
+t = sys.argv[3]
 
 
 if url.startswith("http://"):
