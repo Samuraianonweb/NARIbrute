@@ -7,12 +7,11 @@ import os
 import threading
 import time
 
-with open("pass.txt", encoding="utf-8") as file:
- id = [l.strip() for l in file]
+with open("pass.txt", 'r', ​encoding="utf-8") as fi
 
-with​ ​open​(​id, ​'r'​) ​as​ ​f​: 
+         id = [l.strip() for l in fi]
  ​        ​fi​ ​=​ ​f​.​read​().​splitlines​() 
-  
+
  ​for​ ​id ​in​ ​fi​: 
  ​        ​t​ ​=​ ​threading​.​Thread​(​​args​=​(​id​,​fi​)
  ​        ​t​.​start​() 
