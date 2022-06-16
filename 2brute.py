@@ -41,7 +41,6 @@ if len(sys.argv) != 4:
 url = sys.argv[1]
 usr = sys.argv[2]
 id = sys.argv[3]
-pwd = id
 
 
 if url.startswith("http://"):
@@ -87,7 +86,7 @@ cj = cookielib.CookieJar()
 coder = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
 
 
-with open(pwd, 'r') as f:
+with open(id, 'r') as f:
 	fi = f.read().splitlines()
 
 for passwd in fi:
