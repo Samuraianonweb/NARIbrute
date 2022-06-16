@@ -3,7 +3,11 @@ import urllib
 
 link = "https://raw.githubusercontent.com/Samuraianonweb/password/main/1_500.txt"
 
-f = urllib.request.urlopen(link)
-myfile = f.read()
+page = urllib.request.urlopen(link)
+html_bytes = page.read()
+html = html_bytes.decode("utf-8")
 
-print(myfile)
+with open(html) as f:
+    mas = f.read().splitlines()
+for x in mas:
+    print(x)
