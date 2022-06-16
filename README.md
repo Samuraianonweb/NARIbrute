@@ -1,7 +1,7 @@
 <h1 align="center">Подпишись на мій телеграмм <a href="https://t.me/samurai_figure" target="_blank">N∆RI</a> 
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
 <h3 align="center">N∆RIbrute</h3>
-Постійно буду обновлювати якщо хочеш допомогти кидай бази паролів у мій телеграм @samurai_gh<br>
+Постійно буду обновлювати якщо хочеш допомогти кидай бази паролів у мій телеграм у фарматі .txt @samurai_gh<br>
 Можна сказати що він "універсальний" якщо форма відправки така <br>
 post login[username]<br>
 post login[password]<br>
@@ -25,7 +25,6 @@ python2 baza_pass.py
 ```
 Якщо потрібно скачати базу за номером. Всі бази:https://github.com/Samuraianonweb/password<br>
 Id бази це перші цифри (id)_500.txt<br>
-Постійно буду обновлювати якщо хочеш допомогти кидай бази паролів у мій телеграм @samurai_gh<br>
 
 ```shell
 python2 id_baza.py
@@ -35,7 +34,7 @@ python2 id_baza.py
 ```shell
 python2 brute -url -login pass.txt 
 ```
--url = Посилання на панель<br>
+-url = Посилання на панель/вхід<br>
 -login = Логін (якщо відомо , якщо ні вставляємо Admin/admin)<br>
 Приклади готової команди <br>
 ```shell
