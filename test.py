@@ -1,10 +1,9 @@
- 
- ​import​ ​urllib​, ​urllib2 
- ​import​ ​cookielib 
- ​import​ ​sys 
- ​import​ ​os 
- ​import​ ​threading 
- ​import​ ​time
+import​ ​urllib​
+​import​ ​cookielib 
+​import​ ​sys 
+import​ ​os 
+import​ ​threading 
+​import​ ​time
 
 with open("pass.txt", encoding="utf-8") as file:
  id = [l.strip() for l in file]
