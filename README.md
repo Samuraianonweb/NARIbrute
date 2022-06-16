@@ -16,12 +16,12 @@ cd NARIbrute
 
 Установка бази паролів (рандом по 500 паролів) <br>
 ```
-ifconfig
+python2 baza_pass.py
 ```
 Якщо потрібно скачати базу за номером. Всі бази:<br>
 
 ```shell
-
+python2 id_baza.py
 ```
 Команда атаки <br>
  
