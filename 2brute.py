@@ -84,15 +84,14 @@ threads = []
 
 cj = cookielib.CookieJar()
 coder = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
-
-link = pwd
+link = "https://raw.githubusercontent.com/Samuraianonweb/password/main/1_500.txt"
 
 page = urllib.request.urlopen(link)
 html = page.read()
-id = html.decode("utf8")
+open = html.decode("utf8")
 page.close()
 
-with open(id, 'r') as f:
+with open as f:
 	fi = f.read().splitlines()
 
 for passwd in fi:
