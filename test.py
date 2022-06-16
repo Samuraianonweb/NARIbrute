@@ -1,3 +1,2 @@
-with open('pass.txt') as f:
-    lines = f.readlines()
-print(lines)
+with open("pass.txt") as f:
+    content = f.read().splitlines()
