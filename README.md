@@ -27,5 +27,7 @@ python2 id_baza.py
 Команда атаки <br>
  
 ```shell
-
+python2 brute -url -login pass.txt 
 ```
+-url = Посилання на панель<br>
+-login = Логін (якщо відомо , якщо ні вставляємо Admin/admin)<br>
