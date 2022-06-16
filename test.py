@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import​ ​urllib​
 ​import​ ​cookielib 
 ​import​ ​sys 
