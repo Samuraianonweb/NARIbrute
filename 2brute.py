@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 
+import requests
 import urllib, urllib2
 import cookielib
 import sys
 import os
 import threading
 import time
-import requests
 
 def win():
 	if os.name == "nt":
