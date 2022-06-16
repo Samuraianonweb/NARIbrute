@@ -9,4 +9,4 @@ html = page.read()
 with open(html) as f:
     mas = f.read().splitlines()
 for x in mas:
-    print(x)
+    print(html)
