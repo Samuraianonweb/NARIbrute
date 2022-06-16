@@ -6,6 +6,8 @@
  ​import​ ​threading 
  ​import​ ​time
 
+with open("pass.txt", encoding="utf-8") as file:
+ id = [l.strip() for l in file]
 
 with​ ​open​(​id, ​'r'​) ​as​ ​f​: 
  ​        ​fi​ ​=​ ​f​.​read​().​splitlines​() 
