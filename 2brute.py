@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 
-import urllib
+import urllib, urllib2
 import cookielib
 import sys
 import os
