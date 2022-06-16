@@ -28,7 +28,7 @@ python2 baza_pass.py
 ```
 python2 full.py
 ```
-Якщо потрібно скачати базу за номером(Для того щоб  . Всі бази:https://github.com/Samuraianonweb/password<br>
+Якщо потрібно скачати базу за номером(Для того щоб розсортувати по машинах) . Всі бази:https://github.com/Samuraianonweb/password<br>
 Id бази це перші цифри (id)_500.txt<br>
 
 ```shell
