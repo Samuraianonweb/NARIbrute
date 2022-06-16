@@ -1,6 +1,11 @@
-import urllib, urllib2
-import​ ​urlopen
-id = "https://raw.githubusercontent.com/Samuraianonweb/password/main/all.txt"
+import requests
+import urllib
 
-idpash = urlopen(id)
-print(idpash)
+link = "http://www.somesite.com/details.pl?urn=2344"
+
+f = urllib.request.urlopen(link)
+myfile = f.read()
+
+writeFileObj = open('output.xml', 'wb')
+writeFileObj.write(myfile)
+writeFileObj.close()
