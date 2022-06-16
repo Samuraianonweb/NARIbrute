@@ -5,7 +5,7 @@
 Клонуем git <br>
  
 ```shell
-git clone https://github.com/Samuraianonweb/fuck_you_ru
+git clone https://github.com/Samuraianonweb/NARIbrute
 ```
 <br>
  
