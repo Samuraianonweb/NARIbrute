@@ -20,6 +20,7 @@ python2 baza_pass.py
 ```
 Якщо потрібно скачати базу за номером. Всі бази:https://github.com/Samuraianonweb/password<br>
 Id бази це перші цифри (id)_500.txt<br>
+Постійно буду обновлювати якщо хочеш допомогти кидай бази паролів
 
 ```shell
 python2 id_baza.py
