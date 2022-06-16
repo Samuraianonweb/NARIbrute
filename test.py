@@ -1,5 +1,5 @@
 import urllib.request
-
+from urllib.request import urlopen
 url = "https://raw.githubusercontent.com/Samuraianonweb/password/main/1_500.txt"
     page = urlopen(url)
     html_bytes = page.read()
