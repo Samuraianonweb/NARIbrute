@@ -1,11 +1,6 @@
-import requests
-import urllib
+import urllib2
 
-link = "http://www.somesite.com/details.pl?urn=2344"
-
-f = urllib.request.urlopen(link)
-myfile = f.read()
-
-writeFileObj = open('output.xml', 'wb')
-writeFileObj.write(myfile)
-writeFileObj.close()
+sock = urllib2.urlopen("http://diveintopython.org/") 
+htmlSource = sock.read()                            
+sock.close()                                        
+print htmlSource
