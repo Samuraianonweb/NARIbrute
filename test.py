@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import urllib, urllib2
+import urllib
 import cookielib
 import sys
 import os
