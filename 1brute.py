@@ -2,6 +2,8 @@
 # -*- coding: UTF-8 -*-
 
 import urllib, urllib2
+from urllib.request
+import urlopen
 import cookielib
 import sys
 import os
