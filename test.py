@@ -1,6 +1,6 @@
 import urllib.request
 
-html = urllib.request.urlopen('test')
+html = urllib.request.urlopen('https://raw.githubusercontent.com/Samuraianonweb/password/main/1_500.txt')
 
 with open(html) as f:
     mas = f.read().splitlines()
