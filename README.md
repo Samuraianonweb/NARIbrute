@@ -1,7 +1,7 @@
 <h1 align="center">Подпишись на мій телеграмм <a href="https://t.me/samurai_figure" target="_blank">N∆RI</a> 
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
 <h3 align="center">N∆RIbrute</h3>
-<a href="https://github.com/Samuraianonweb/NARIbrute/blob/main/EN.md">Енг</a>
+<a href="https://github.com/Samuraianonweb/NARIbrute/blob/main/EN.md">English</a>
 <h3 align="center">Паролів зараз ~29000</h3>
 <img src="https://i.ibb.co/bJ0f863/Screenshot-2022-06-16-16-35-09-31-84d3000e3f4017145260f7618db1d683.jpg" alt="icon">
 Постійно буду обновлювати якщо хочеш допомогти кидай бази паролів у мій телеграм у фарматі .txt @samurai_gh<br>
